@@ -1,4 +1,4 @@
-# XO Game 
+# Tic_Tic_Toe_Game 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 
 
