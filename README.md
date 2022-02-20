@@ -8,14 +8,36 @@
 
 # Contents
 
-- [Running the Project]()
 - [Prerequisites]()
+- [Running the Project]()
 - [Features ](#features)
 	  
+	  
+# Prerequisites
+
+JDK 17. (sdk)
+JavaFx 17 (sdk)
+SQL_connector_deiver_8.22
+
+
 
 # Running the project
 
+## Import JDK17
+
+- [extract file jdk 17 from pre_installiton folder]
+- [add it at your IDE as a Java platform]()
+- [then add it to your projcet]
+
+## Import JavaFx17
+
+- [then extract file javaFx 17 from pre_installiton folder]
+- [add it at your IDE as a new library]()
+- [then add it to your projcet]
+
 ## Import Database
+
+- [and finally add sql_connector_jar file to your project]
 - [Open your DBMS]()
 - [Create new database call it Tiktok]()
 - [Import the attached Tiktok.sql from Tic_Tac_Toe_Game folder to your database ](#features) 
@@ -34,9 +56,6 @@ You can run it on the same machine through the project itself in Netbeans applic
 
 <br>
 
-# Prerequisites
-
-JDK 17. 
 
 # Features
 
@@ -67,7 +86,7 @@ JDK 17.
 ## Authors
 
 * **Abdeladel mounir shahin**
-* **Mohamed Alwakil**
+* **Mohamed Hossam Alwakiel**
 * **Gehad Ehab Mosaad**
 * **Khaled Gamal Hamad**
 * **Ali Tarek**
