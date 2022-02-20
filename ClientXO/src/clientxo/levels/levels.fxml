@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #020A32;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientxo.levels.levelsController">
+    <children>
+      <Button fx:id="closeBtn" layoutX="764.0" mnemonicParsing="false" onAction="#closeButtonAction" opacity="0.81" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #9C0707; -fx-border-radius: 0;" text="X" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+           <!-- <Cursor fx:constant="HAND" /> -->
+         </cursor>
+      </Button>
+      <Button fx:id="minBtn" layoutX="728.0" mnemonicParsing="false" onAction="#minButtonAction" prefHeight="30.0" prefWidth="36.0" style="-fx-background-color: #543D9E;" text="_" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="easy" layoutX="273.0" layoutY="125.0" mnemonicParsing="false" onAction="#easyAction" prefHeight="57.0" prefWidth="254.0" style="-fx-background-color: #543D9E; -fx-border-color: #ffffff; -fx-border-radius: 40; -fx-background-radius: 40;" text="Easy">
+         <font>
+            <Font name="Andalus" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#909090" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="med" layoutX="273.0" layoutY="231.0" mnemonicParsing="false" onAction="#medAction" prefHeight="57.0" prefWidth="254.0" style="-fx-background-color: #543D9E; -fx-border-color: #ffffff; -fx-border-radius: 40; -fx-background-radius: 40;" text="Medium">
+         <font>
+            <Font name="Andalus" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#909090" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="hard" layoutX="273.0" layoutY="359.0" mnemonicParsing="false" onAction="#hardAction" prefHeight="57.0" prefWidth="254.0" style="-fx-background-color: #543D9E; -fx-border-color: #ffffff; -fx-border-radius: 40; -fx-background-radius: 40;" text="Hard .. XD">
+         <font>
+            <Font name="Andalus" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#909090" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="14.0" layoutY="396.0" mnemonicParsing="false" onAction="#backAction" opacity="0.7" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: red; -fx-border-color: #ffffff; -fx-border-radius: 40; -fx-background-radius: 40;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Label layoutX="232.0" layoutY="30.0" text="Choose Level of Dificulty">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53737" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+    </children>
+</AnchorPane>
