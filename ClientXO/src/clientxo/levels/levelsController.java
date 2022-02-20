@@ -15,7 +15,7 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 /**
  *
- * @author Ali
+ * @author Ali_Tarek
  */
 public class levelsController implements Initializable {
         
@@ -30,7 +30,6 @@ public class levelsController implements Initializable {
     private Button hard;
     @FXML
     private Button closeBtn, minBtn;
-    
     
     private double x = 0; 
     private double y = 0;
@@ -78,7 +77,6 @@ private void backAction(ActionEvent event) throws IOException
 }
 
 
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

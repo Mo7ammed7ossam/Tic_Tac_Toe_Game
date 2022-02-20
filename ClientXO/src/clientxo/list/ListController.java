@@ -112,6 +112,4 @@ public class ListController implements Initializable {
         this.tableScores = tableScores;
     }
     
-    
-
 }

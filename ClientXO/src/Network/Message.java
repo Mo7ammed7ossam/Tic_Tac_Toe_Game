@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Ali
+ * @author Ali_Tarek
  */
 public class Message implements Serializable {
     String type;

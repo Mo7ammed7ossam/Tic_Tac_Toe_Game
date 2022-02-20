@@ -14,11 +14,10 @@ import javafx.stage.StageStyle;
 
 /**
  *
- * @author Ali
+ * @author Ali_Tarek
  */
 public class ClientXO extends Application {
 
-    
     // to drag and drop stage in any place in screen
     private double xOffset = 0;
     private double yOffset = 0;
@@ -43,7 +42,6 @@ public class ClientXO extends Application {
 
         stage.initStyle(StageStyle.UNDECORATED);
 
-        
         root.setOnMousePressed((MouseEvent event) -> {
             xOffset = event.getSceneX();
             yOffset = event.getSceneY();

@@ -151,7 +151,7 @@ public class FXMLDocumentController implements Initializable {
     // get users from DB
     public static void loadUserList() {
         ArrayList<Player> playerList = GameController.players;
-        ArrayList<Player> playerList = GameController.players;
+        
         int listSize = playerList.size();
 
         usersList.clear();

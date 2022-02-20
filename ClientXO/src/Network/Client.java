@@ -19,11 +19,10 @@ import validpkg.Validation;
 
 /**
  *
- * @author Ali
+ * @author Ali_Tarek
  */
 public class Client extends Thread 
 {
-
     private Socket socket;
     //to read message from server
     private ObjectInputStream input;
@@ -290,7 +289,6 @@ public class Client extends Thread
         });
     }
 
-    ;
     public void handleChatting(String msg[]) {
         Platform.runLater(() -> {
 

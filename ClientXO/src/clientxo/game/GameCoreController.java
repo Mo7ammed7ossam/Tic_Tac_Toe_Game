@@ -17,7 +17,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Ali
+ * @author Ali_Tarek
  */
 
 public class GameCoreController implements Initializable {
@@ -42,14 +42,13 @@ public class GameCoreController implements Initializable {
     int playCount = 2;
     @FXML
     Image xo;
-        
-
+       
     
 @FXML
 private void closeButtonAction(){
         
         // Close Window Button
-       Message msg = new Message("CloseConn",new String []{});
+        Message msg = new Message("CloseConn",new String []{});
         ClientXO.client.sendMessage(msg);
         ClientXO.client.closeConn();
         Stage closeStage = (Stage) closeBtn.getScene().getWindow();
@@ -125,7 +124,7 @@ private void Btn9(ActionEvent e){
 
 @FXML
 private void backAction(ActionEvent event) throws IOException{
-    Message msg = new Message("CloseConn",new String []{});
+        Message msg = new Message("CloseConn",new String []{});
         ClientXO.client.sendMessage(msg);
         new FXMLDocumentController().playTypeWindow();
         

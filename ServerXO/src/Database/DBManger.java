@@ -38,7 +38,7 @@ public class DBManger {
 
             DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
             
-            connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/tiktok_game", "root", "123456789");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/tiktok_game","root","");
            
             
           
