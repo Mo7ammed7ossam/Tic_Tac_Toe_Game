@@ -15,9 +15,9 @@
 	  
 # Prerequisites
 
-JDK 17. (sdk)
-JavaFx 17 (sdk)
-SQL_connector_deiver_8.22
+- JDK 17. (sdk)
+- JavaFx 17 (sdk)
+- SQL_connector_deiver_8.22
 
 
 
@@ -25,19 +25,19 @@ SQL_connector_deiver_8.22
 
 ## Import JDK17
 
-- [extract file jdk 17 from pre_installiton folder]
+- [extract file jdk 17 from pre_installiton folder]()
 - [add it at your IDE as a Java platform]()
 - [then add it to your projcet]
 
 ## Import JavaFx17
 
-- [then extract file javaFx 17 from pre_installiton folder]
+- [then extract file javaFx 17 from pre_installiton folder]()
 - [add it at your IDE as a new library]()
 - [then add it to your projcet]
 
 ## Import Database
 
-- [and finally add sql_connector_jar file to your project]
+- [and finally add sql_connector_jar file to your project]()
 - [Open your DBMS]()
 - [Create new database call it Tiktok]()
 - [Import the attached Tiktok.sql from Tic_Tac_Toe_Game folder to your database ](#features) 
